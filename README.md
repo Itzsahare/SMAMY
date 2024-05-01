@@ -2,7 +2,7 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/PyXen"><img src="https://telegra.ph/file/e2ca67e015be4888dfed0.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/PyXen"><img src="https://telegra.ph/file/672e2b6541b5bce489e6b.jpg" width="400"></a></p>
 
 
 > ⭐️ Thanks to everyone for using this op SPAMXD. That is the greatest pleasure we have !
