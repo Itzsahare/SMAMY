@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/team_nexz"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/nexz_support")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ll_SHARABI_WORLD_ll"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ll_ARD_SHARABI_ll")
     ]
   ]
 
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/816a63029c5ed26f3037a.jpg",
+              "https://telegra.ph/file/e2ca67e015be4888dfed0.mp4",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @nexzz_op**
+**© @ARD_NERIW**
 """
 
                  
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @nexz_op**
+**© @ARD_NERIW**
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @nexz_op**
+** © @ARD_NERIW**
 """                     
            
            
@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/team_nexz"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/nexz_support")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ll_SHARABI_WORLD_ll"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ll_ARD_SHARABI_ll")
               ]
             ]
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @nexzz_op", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @ARD_NERIW", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Make Your Own Altron Bots !! @nexzz_op", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @ARD_NERIW", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @nexzz_op", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @ARD_NERIW", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own Altron Bots !! @nexzz_op", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @ARD_NERIW", cache_time=0, alert=True)
